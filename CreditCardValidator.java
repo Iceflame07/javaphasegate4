@@ -31,19 +31,22 @@ import java.util.Scanner;
 	int Discover = {6};
 
 
-	 if(ccNumber == 4) {
+	 if(ccNumber == 4){
 	     System.out.print("ccNumber is VisaCard");
       }
-	 else if(ccNumber == 5) {
+	 else if(ccNumber == 5){
 	     System.out.print("ccNumber is MasterCard");
       }
-	 else if(ccNumber == 37) {
+	 else if(ccNumber == 37){
 	     System.out.print("ccNumber is AmericanExpress Card");
       }
-	 else(ccNumber == 6) {
+	 else if(ccNumber == 6){
 	     System.out.print("ccNumber is Discover Card");
-  }
 
+      }  else {
+
+	     System.out.print("Invalid totalNumber,try again!!!");
+      }
 }
 
 
