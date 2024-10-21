@@ -45,7 +45,7 @@ import java.util.Scanner;
 
       }  else {
 
-	     System.out.print("Invalid totalNumber,try again!!!");
+	     System.out.print("Invalid ccNumber,try again!!!");
       }
 }
 
