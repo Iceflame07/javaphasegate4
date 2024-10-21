@@ -7,34 +7,41 @@ import java.util.Scanner;
 	System.out.print("Enter your card sixteen(16) digit:");
 	int number = input.nextInt();
 
-	int[] VisaCard = {4};
-	int[] MasterCard = {5};
-	int[] AmericanExpress = {37};
-	int[] DiscoverCard = {6};
-	int[] cardnumber = {16};
-	int[] counter = {0};
-	int[] odd = {1,3,5,7,9};
-	int[] even = {2,4,6,8,10};
+	int odd = {38};
+	int even = {37};
+	int count = {0};
+	int totalNumber = {16};
 
-	for(int count = 0; count < number.length; count++);
+	for(int count = 0; count < totalNumber.length; count++);
 
-	   number = odd + even;
-
-	 if(VisaCard % 4 == 0){
-	     System.out.println("CreditCard is VisaCard");
-      }
-         else if(MasterCard % 5 == 0){
-		System.out.println("CreditCard is MasterCard");
-      }
-         else if(AmericanExpress % 37 == 0){
-		System.out.println("CreditCard is AmericanExpress");
-      }
-	 else if(DiscoverCard % 6 == 0){
-		System.out.println("CreditCard is DiscoverCard");
+	 if(count % 10) {
+	     System.out.println("totalNumber is valid!");
       }  else {
-		System.out.print("Invalid CreditCard,try again");
+	     System.out.print("Invalid totalNumber,try again!!!");
       }
 
+}
+
+   public static void(get Card) {
+
+	int ccNumber = {4388576018402626};
+	int VisaCard = {4};
+	int Master = {5};
+	int AmericanExpress = {37};
+	int Discover = {6};
+
+
+	 if(ccNumber == 4) {
+	     System.out.print("ccNumber is VisaCard");
+      }
+	 else if(ccNumber == 5) {
+	     System.out.print("ccNumber is MasterCard");
+      }
+	 else if(ccNumber == 37) {
+	     System.out.print("ccNumber is AmericanExpress Card");
+      }
+	 else(ccNumber == 6) {
+	     System.out.print("ccNumber is Discover Card");
   }
 
 }
